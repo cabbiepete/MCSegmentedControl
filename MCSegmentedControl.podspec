@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/stevenpsmith/YahooWeatherService"
   s.license      = 'MIT'
   s.author       = "Matteo Caldari"
-  s.source       = { :git => "https://github.com/oettam/MCSegmentedControl.git", :commit => '7a4392388f7ba74e05c595418b0eae14777c2775' }
+  s.source       = { :git => "https://github.com/cabbiepete/MCSegmentedControl.git", :commit => '115732606302651152b8aeba10c275803558c5df' }
   s.platform     = :ios, '5.0'
   s.source_files = 'MCSegmentedControlDemo/MCSegmentedControl/*.{h,m}'
-  s.requires_arc = true
+  s.requires_arc = false
 end
